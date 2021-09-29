@@ -1,0 +1,19 @@
+{
+  "name": "flag-4-all-back-end",
+  "version": "1.0.0",
+  "description": "Flag 4 All API",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Héctor García",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
